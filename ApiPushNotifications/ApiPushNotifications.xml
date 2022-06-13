@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiPushNotifications</name>
+    </assembly>
+    <members>
+        <member name="M:ApiPushNotifications.Servicios.NotificacionesManager.recuperarIDS(System.String,System.Boolean)">
+            <summary>
+            Consulta los tokens en la base de datos
+            </summary>
+            <param name="correo"></param>
+            <param name="todos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPushNotifications.Servicios.NotificacionesManager.enviarFirebase(System.String,ControladorModelos.Push.PushNotification)">
+            <summary>
+            Envia el push a servidores de Google
+            </summary>
+            <param name="tokens"></param>
+            <param name="keyFirebase"></param>
+            <param name="push"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
